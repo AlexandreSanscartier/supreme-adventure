@@ -1,0 +1,26 @@
+.stock-name-with-ticker-with-icon {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+}
+
+.stock-icon {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.stock-name-with-ticker {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.stock-name {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.stock-ticker {
+    text-transform: uppercase;
+    color: grey;
+}
