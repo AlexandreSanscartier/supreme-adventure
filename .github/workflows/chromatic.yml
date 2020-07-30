@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     # the list of steps that the action will go through
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - run: npm
-      - uses: chromaui/action@v1
+      - uses: chromaui/action@v2
         # options required to the GitHub chromatic action
         with:
           # our project token, to see how to obtain it
